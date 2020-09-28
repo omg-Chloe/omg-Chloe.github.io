@@ -6,6 +6,10 @@ body {
 .assignment {
     display: flex;
     padding: 10px;
+    margin: 5px;
+    border: 2px solid rgb(80, 80, 80);
+    background-color: rgb(255, 255, 240);
+    border-radius: 5px;
 }
 
 .assignment img {
