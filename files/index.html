@@ -1,83 +1,260 @@
-<!--written by COS for CSCE190-->
-<!DOCTYPE html>
-<html lang="en"> <!--set language and char-->
-    <head>
-        <meta charset="utf-8"> 
-        <!--set resize to device preference-->
-        <meta name="view" content="width=device-width, initial-scale=1">
-        <link href="index.css" rel="stylesheet" type="text/css">
-        <title>CSCE 190: COS</title>
-    </head>
-    <body>
-        <div class="wrapper">
-            <header class="main"><h1>Welcome to Chloe Odessa's site</h1></header>
-            <article class="content">
-               <!--<h2>This is the homepage for my CSCE 190 site</h2>-->
-               <!--<p>In this class we will be working on this website adding deliverables throughout the course</p>-->
-                <section class="assignment">
-                    <a href="files/ProblemStatement.pdf"><img src="img/probStat.png"></a>
-                    <Section class="assign-detail">
-                        <h2>Problem statement</h2>
-                        <p>Users are having a difficult time deciding on a place to eat because 
-                        there are so many food options and there are many factors that go into deciding on a food venue. 
-                        Our solution should make it easy for any user to make a decision that caters to them based on their personal preferences.
-                        </p>
-                    </Section>
-                </section>
-                <!--affinity-->
-                <section class="assignment">
-                    <a href="files/CSCE_Affinity.pdf"><img src="img/affinity.png"></a>
-                    <section class="assign-detail">
-                        <a href="files/CSCE_Affinity.pdf" target="blank"><h2>Affinity Diagram</h2></a>
-                        <p> My group and I worked together to brain storm all things food</p>
-                    </section>
-                </section>
-                <!--persona-->
-                <section class="assignment">
-                    <a href="files/CSCE_Personas.pdf"><img src="img/persona.png"></a>
-                    <section class="assign-detail">
-                        <a href="files/CSCE_Personas.pdf" target="blank"><h2>Persona Project</h2></a>
-                        <p> My group and I worked together to create these personas</p>
-                    </section>
-                </section>
-                <!--story board-->
-                <section class="assignment">
-                    <a href="files/storyBoard.pdf"><img src="img/storyBoard.png"></a>
-                    <section class="assign-detail">
-                        <a href="files/CSCE_Personas.pdf" target="blank"><h2>Story Board Project</h2></a>
-                        <p> My group and I worked together to create this story board.</p>
-                    </section>
-                </section>
-                <!--sketches-->
-                <section class="assignment">
-                    <a href="files/out.pdf"><img src="img/sketches.png"></a>
-                    <section class="assign-detail">
-                        <a href="files/out.pdf" target="blank"><h2>sketches Project</h2></a>
-                        <p> My group and I worked together to create these sketches.</p>
-                    </section>
-                </section>
-                <!--usability-->
-                <section class="assignment">
-                    <a href="https://youtu.be/yiO4K4al6LI"><img src="img/use.png"></a>
-                    <section class="assign-detail">
-                        <a href="files/use.pdf" target="blank"><h2>usability Project</h2></a>
-                        <ul>
-                        <li> Task 1: set up profile. Add email, password, username, allergies. 
-                                Chose favorites display. Chose your table display.
-                                Add preferences. Add payments.</li>
-                        <li> Task 2: randomly select from categories.</li>
-                        <li> Task 3: look at reviews for randomly selected restaurant. 
-                            Then chose to accept or decline restaurant.</li>
-                        </ul>
-                    </section>
-                </section>
-        </div>
-    </body>
+
+
+
+<!DOCTYPE HTML>
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>CSCE 190 - Customizable Food Choice Randomizer - Proto.io</title>
+
+		
+			<meta name="HandheldFriendly" content="True">
+			<meta name="MobileOptimized" content="414"> 
+
+			
+			
+			
+			<meta name="viewport" content="minimum-scale=1.00, maximum-scale=1.00, initial-scale=1.00, user-scalable=no, shrink-to-fit=no" />
+
+			
+				<meta name="apple-mobile-web-app-capable" content="yes" />
+				<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+			
+
+			<meta name="format-detection" content="telephone=no">
+
+
+			
+
+            
+            <link rel="icon" sizes="192x192" href="./assets/branding/android-icon-hires.png">
+            <link rel="icon" sizes="128x128" href="./assets/branding/android-icon.png">
+
+            
+            <link href="./assets/branding/apple-touch-icon-retina180.png" sizes="180x180" rel="apple-touch-icon">
+
+            
+            <link href="./assets/branding/apple-touch-icon-retina.png" sizes="114x114" rel="apple-touch-icon">
+
+            
+            <link href="./assets/branding/apple-touch-icon.png" sizes="57x57" rel="apple-touch-icon">
+
+            
+            <link href="./assets/branding/startup.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+
+            
+            <link href="./assets/branding/startup-retina.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+            
+            <link href="./assets/branding/startup-568.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+            
+            <link href="./assets/branding/startup-retina-6.png" media="(device-width: 375px) and (device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+            
+            <link href="./assets/branding/startup-retina-6plus.png" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
+
+            
+            <link href="./assets/branding/startup-retina-6plus-landscape.png" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
+
+            
+            <link href="./assets/branding/startup-ipad.png" media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image">
+
+            
+            <link href="./assets/branding/startup-ipad-landscape.png" media="(device-width: 768px) and (orientation: landscape)" rel="apple-touch-startup-image">
+
+            
+            <link href="./assets/branding/startup-ipad-retina.png" media="(device-width: 768px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+            
+            <link href="./assets/branding/startup-ipad-landscape-retina.png" media="(device-width: 768px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+            
+            <link href="./assets/branding/startup-ipad-pro.png" media="(device-width: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+            
+            <link href="./assets/branding/startup-ipad-pro-landscape.png" media="(device-width: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+			<meta http-equiv="cleartype" content="on"> 
+
+
+			 
+		    <script type="text/javascript" src="./scripts/plugins/jquery/jquery.js"></script>
+
+			
+				<link rel="stylesheet" href="./stylesheets/player-export.css" />
+				<script type="text/javascript" src="./scripts/player-export.js"></script>
+			
+
+			
+			<script type="text/javascript" src="./libraries/common/components.js"></script> 
+			<link type="text/css" rel="Stylesheet" href="./libraries/common/components.1.00.css" /> 
+
+			
+					<script type="text/javascript" src="./libraries/generic2/components.js"></script> 
+					<link type="text/css" rel="Stylesheet" href="./libraries/generic2/components.1.00.css" /> 
+				
+					<script type="text/javascript" src="./libraries/ios7/components.js"></script> 
+					<link type="text/css" rel="Stylesheet" href="./libraries/ios7/components.1.00.css" /> 
+				
+					<script type="text/javascript" src="./libraries/ios9/components.js"></script> 
+					<link type="text/css" rel="Stylesheet" href="./libraries/ios9/components.1.00.css" /> 
+				
+				<script type="text/javascript" src="./data/data.js"></script> 
+			<script type="text/javascript" src="./webkitmask/maskimages.js"></script> 
+
+		<style>
+			body { width: 414px; height: 896px; }
+			.landscape, .landscape .prx-page { min-height: 414px; }
+			.portrait, .portrait .prx-page { min-height: 896px; }
+		</style>
+
+		<script type="text/javascript">
+
+			prx.ver = '6.6.60.0';
+			prx.url.account = 'https://tanvisingh.proto.io';
+			prx.url.staticassets = 'https://gal.proto.io';
+			prx.url.devices = 'https://dteyv52hbg2at.cloudfront.net/devices';
+			prx.url.static = 'https://dteyv52hbg2at.cloudfront.net';
+			prx.url.siteurl = 'proto.io';
+			prx.url.crossmsg = 'https://tanvisingh.proto.io';
+
+			prx.nodejsassetsserver = {};
+			prx.nodejsassetsserver.host = ".proto.io";
+			prx.nodejsassetsserver.subdomainprefix = "https://at";
+			prx.nodejsassetsserver.maxsubdomains = "20";
+
+			prx.device_library = 'ios9';
+			prx.devices[prx.device] = {
+				name: prx.device
+				,defaultOrientation: 'portrait'
+				,portrait_applies: 1 //new
+				,portrait: [414,896]
+				,landscape_applies: 1 //new
+				,landscape: [896,414]
+				,allow_orientation_change: 1 //new
+				,statusbar_skin: 'default' // new
+				,statusbarheightportrait: 0
+				,statusbarheightlandscape: 0
+				,navigationbar_skin: 'default' //new
+				,navigationbarheightportrait: 0
+				,navigationbarheightlandscape: 0
+				,normalportrait: [414,896]
+				,normallandscape: [896,414]
+				,device_s3bucket: '6a9e70ba-0e0c-41f6-ab20-45aaf591e647'
+				,dpr: '1.00'
+				,deviceType: "iphonex"
+                ,showiPhoneXNotch: true
+                ,hasCustomSkinNotch: false
+				,appleWatchRoundedCorners: false
+				,scrollType: "default"
+				,initialscale: 1.00
+				,targetdensitydpi: "device-dpi"
+			}
+
+			prx.projectsettings.id = '16033238-503d-4b46-bde8-418975da8c25';
+			prx.projectsettings.s3b = 'tanvisingh-1095498-proto';
+			prx.projectsettings.account = 'tanvisingh';
+			prx.projectsettings.statusbar = '0'; 
+			prx.projectsettings.statusbarapplies = '0';
+			prx.projectsettings.navigationbar = '0';
+			prx.projectsettings.navigationbarapplies = '0';
+			prx.projectsettings.initialpageid = -1;
+			
+			
+			prx.projectsettings.flashactions = 1;
+			prx.projectsettings.gatrackingcode = '';
+
+			prx.export2html = '1' == true;
+			prx.mobPlayer = 0;
+
+			prx.user.country = 'US';
+
+			prx.s3Links = []; 
+			var sLinkedAssets = [];
+			
+
+			prx.csrf_token = 'DAEC49A622F56AF5E2219A65B3E241815B52BAC6331EAAEE2392784AA0A66941';
+
+            
+
+            
+                            prx.assetsAccessToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkIjp7InVpZCI6Ii0xIiwicHJvamVjdF9pZCI6IjE2MDMzMjM4LTUwM2QtNGI0Ni1iZGU4LTQxODk3NWRhOGMyNSJ9LCJ2IjowLCJleHAiOjE2MDYyNzg5MjIsImlhdCI6MTYwNjA5ODkyMn0.9ePAs32PXXEwDbLsmwGFOk19n7wx4DRYnLEM-iQ9Zio";
+
+			prx.iniPlayer.iniPreLoad();
+
+		</script>
+	</head>
+
+	
+
+			<body class="player device-cursor-touch mobile-device-true " " id="mbd" >
+
+				
+					<div id='iphoneX-notch-player'>
+						<span class="iphoneX-notch-corners"></span>
+					</div>
+				
+				<div id="window-wrapper">
+					<div id="dragarea"></div>
+					<div id="statusbar"></div>
+					<div id="underlay" style=""></div>
+
+					<div class="prx-page" data-role="page" id="p-1" data-id="1"></div>
+					
+								<div class="prx-page" data-role="page" id="p-2" data-id="2"></div>
+							
+								<div class="prx-page" data-role="page" id="p-3" data-id="3"></div>
+							
+								<div class="prx-page" data-role="page" id="p-4" data-id="4"></div>
+							
+								<div class="prx-page" data-role="page" id="p-6" data-id="6"></div>
+							
+								<div class="prx-page" data-role="page" id="p-7" data-id="7"></div>
+							
+								<div class="prx-page" data-role="page" id="p-8" data-id="8"></div>
+							
+								<div class="prx-page" data-role="page" id="p-9" data-id="9"></div>
+							
+								<div class="prx-page" data-role="page" id="p-10" data-id="10"></div>
+							
+								<div class="prx-page" data-role="page" id="p-11" data-id="11"></div>
+							
+								<div class="prx-page" data-role="page" id="p-12" data-id="12"></div>
+							
+								<div class="prx-page" data-role="page" id="p-13" data-id="13"></div>
+							
+								<div class="prx-page" data-role="page" id="p-14" data-id="14"></div>
+							
+								<div class="prx-page" data-role="page" id="p-15" data-id="15"></div>
+							
+								<div class="prx-page" data-role="page" id="p-16" data-id="16"></div>
+							
+								<div class="prx-page" data-role="page" id="p-17" data-id="17"></div>
+							
+								<div class="prx-page" data-role="page" id="p-18" data-id="18"></div>
+							
+								<div class="prx-page" data-role="page" id="p-19" data-id="19"></div>
+							
+					<div id="navigationbar"></div>
+					<div id="overlay"></div>
+					<div id="trash"></div>
+					<div id="quick-audios"></div>
+				</div>
+
+				 
+			<div id="loader-wrapper">
+				
+				<div class="progress">
+					<div class="progress-bar"></div>
+				</div>
+				<div id="poweredby"></div>
+			</div>
+			
+
+
+			</body>
+		
+
 </html>
-<!--trouble shooting
-    *if site not updated after 5 min
-    go to site/index.html refresh page
-    then go to site.io refresh and changes should show
-    *when including css file don't include computer filepath
-    *couldn't get the stupid links to change color when I realized 
-    I was linking them to my local file not the actual site-->
